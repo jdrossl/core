@@ -501,6 +501,13 @@
             <artifactId>jta</artifactId>
             <version>${jta.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-s3</artifactId>
+            <version>1.11.433</version>
+        </dependency>
+
     </dependencies>
 
     <distributionManagement>
